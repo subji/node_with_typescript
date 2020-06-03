@@ -38,7 +38,7 @@ export default ({ app }: { app: express.Application }) => {
   app.use((err: any, req: Request, res: Response, next: NextFunction) => {
     let status: number = parseInt(err.status) || 500;
     res.status(status);
-    res.json({ code: status, status: 'Error', item: null });
+    res.json({ code: res.statusCode, message: 'Error', item: null });
   });
 
 };
