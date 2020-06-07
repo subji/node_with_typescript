@@ -17,6 +17,7 @@
     "class-validator": "^0.12.2",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+    "event-dispatch": "^0.4.1",
     "express": "^4.17.1",
     "method-override": "^3.0.0",
     "puppeteer": "^3.3.0",
